@@ -4,8 +4,8 @@ import sys
 #---This script exists to demonstrate use of '*args' 
 def unknown_vars(args):
 
-  print("This script exists to demonstrate use of '*args' as shown below.\n\n")
-  print(f"This args list contains {len(sys.argv)} variables.")
+  print("This script exists to demonstrate use of '*args' as shown below.\n")
+  print(f"This args list contains {len(sys.argv)} variables.\n-------------------------------------")
   
 #---I need a counter
   counter = 0
@@ -21,3 +21,5 @@ def unknown_vars(args):
 
 unknown_vars(sys.argv)
 
+#---I want another line for easier reading
+print("\n")
